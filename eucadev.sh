@@ -1,4 +1,4 @@
-#!/bin/bash
+#! :set ff=unix /bin/bash
 
 #
 # parse comand-line parameters
