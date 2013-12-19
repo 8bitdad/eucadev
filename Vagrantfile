@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
       u.vm.box = OS[:box]
       u.vm.box_url = OS[:url]
       #may need to edit this if port is in use on your system
-      u.vm.network :forwarded_port, guest: 8080, host: 8080
+      u.vm.network :forwarded_port, guest: 8080, host: 1234
       u.vm.network :forwarded_port, guest: 8443, host: 8443
       u.vm.network :forwarded_port, guest: 8773, host: 8773
       u.vm.network :forwarded_port, guest: 8774, host: 8774
